@@ -1,0 +1,69 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background-color: white;
+
+}
+.main{
+    border: 1px solid #333;
+    width: 100%;
+    height: 100%;
+    padding-top: 1rem ;
+}
+h2{
+    text-align: center;
+}
+.filters{
+margin-top: 2rem;
+display: flex;
+flex-wrap: nowrap;
+justify-content:space-evenly;
+padding-bottom: 2rem ;
+}
+.filters>button{  
+    border-style: inset;  
+    font-weight: 800;
+    color : red;
+    width: 7rem;
+    height: 2rem;
+}
+.product{
+    border: 1px solid #333;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.card{
+    border-radius: 6px;
+    margin:2rem;
+    border: 1px solid #333;
+    width : 28%;
+    height : 30rem;
+}
+img{
+    margin:7%;
+    width: 87%;
+    height: 15rem;
+}
+.descrip{
+    border: 3px solid #333;
+    margin-left: 2rem;
+}
+.addbtn{
+    width: 15%;
+    margin-left: 65%;
+}
+@media only screen and (max-width: 360px) {
+    * {
+      background-color: lightblue;
+    }
+    .card{
+        border-radius: 6px;
+        margin:1rem;
+
+        border: 1px solid #333;
+        width : 90%;
+        height : 30rem;
+    }
+  }
